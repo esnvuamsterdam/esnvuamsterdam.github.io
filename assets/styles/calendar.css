@@ -1,0 +1,46 @@
+.bg-blue {
+    background-color: #00adef!important;
+}
+.bg-pink {
+    background-color: #ed3d99!important;
+}
+.bg-orange {
+    background-color: #f76e39!important;
+}
+.bg-green {
+    background-color: #52bc5b!important;
+}
+
+.mb-4 {
+    color: #00adef;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 100px;
+    }
+
+    .mb-4 {
+        color: #00adef;
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,152 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    height: 75px;
+    background: white;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.header__title h2 {
+    margin: 0;
+    padding-right: 12px;
+    color: #52bc5b;
+}
+
+.header__logo img{
+    height: 75px;
+    padding-left: 12px;
+}
+
+.contain {
+    display: flex;
+}
+
+.navigation {
+    width: 200px;
+    position: fixed;
+    height: 100vh;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    z-index: 4;
+    padding-top: 76px;
+}
+
+.navigation__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation__item {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navigation__link {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+    transition: color .2s ease;
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 1rem .5rem;
+}
+
+.navigation__link:hover{
+    color: #f76e39;
+}
+
+.active {
+    color: #f76e39;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 100px 2rem 0 2rem;
+    position: relative;
+}
+
+.content__title h1{
+    margin: 0;
+    font-size: 36px;
+    color: #00adef;
+    font-weight: 700;
+}
+
+.content__text h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #f76e39;
+}
+
+.content__text h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #f76e39;
+}
+
+.content__text {
+    padding-top: 40px;
+}
+
+.content__text img {
+    max-width: 650px;
+}
+
+.content__text p{
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.content__text li {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.link {
+    color: #ed3d99;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: auto;
+    border: 1px solid;
+}
+
+table tr {
+    text-align: left;
+    height: 100px;
+}
+
+table td {
+    width: 100px;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+table td:last-child {
+    border: 0;
+    border-bottom: 1px solid;
+}
